@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.beritaterkini.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="never"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+
+        />
+    <item
+        android:id="@+id/chat"
+        android:orderInCategory="100"
+        android:title="Chatting"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="always"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        />
+
+    <item
+        android:id="@+id/crud"
+        android:orderInCategory="100"
+        android:title="Crud Data Warga"
+        android:icon="@drawable/ic_library"
+        app:showAsAction="always"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/Testing"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="Tentang Kami"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        />
+
+</menu>
